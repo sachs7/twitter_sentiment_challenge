@@ -9,6 +9,7 @@ This is the code for the Twitter Sentiment Analyzer challenge for 'Learn Python 
 
 * tweepy (http://www.tweepy.org/)
 * textblob (https://textblob.readthedocs.io/en/dev/)
+* pygal (http://pygal.org/)
 
 Install missing dependencies using [pip](https://pip.pypa.io/en/stable/installing/)
 
