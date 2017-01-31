@@ -54,7 +54,6 @@ def analyse_tweets(search_item):
 if __name__ == '__main__':
     search_term = 'Trump'
     p_count, neg_count, neu_count = analyse_tweets(search_term)
-    # print(p_count, neg_count, neu_count)
     p = pygal.Pie(inner_radius=0.4)
     p.title = 'Tweets based on search term: ' + str(search_term) + ' (in %)'
     p.add('Positive Tweets', p_count)
